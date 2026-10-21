@@ -15,7 +15,8 @@ public class Ingredient{
         this.expiryDate=expiryDate;
     }
 
-    public long getID(){return id;}
+    public long getId(){return id;}
+
     public String getName(){return name;}
     public double getQuantity(){return quantity;}
     public String getUnit(){return unit;}
