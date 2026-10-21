@@ -1,9 +1,23 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.SmartPantry" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    <style name="Theme.SmartPantry" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/cherry_500</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/cherry_100</item>
+        <item name="colorOnPrimaryContainer">@color/cherry_900</item>
+        <item name="colorSecondary">@color/cherry_700</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorSecondaryContainer">@color/cherry_200</item>
+        <item name="colorOnSecondaryContainer">@color/cherry_900</item>
+        <item name="colorSurface">@color/cherry_50</item>
+        <item name="colorOnSurface">@color/cherry_900</item>
+        <item name="colorOutline">@color/cherry_300</item>
+        <item name="android:colorBackground">@color/cherry_50</item>
+        <item name="android:statusBarColor" tools:targetApi="1">@color/cherry_700</item>
     </style>
 
-    <style name="Theme.SmartPantry" parent="Base.Theme.SmartPantry" />
+    <style name="Widget.SmartPantry.Toolbar" parent="Widget.Material3.Toolbar">
+        <item name="android:background">@color/cherry_700</item>
+        <item name="titleTextColor">@color/white</item>
+        <item name="navigationIconTint">@color/white</item>
+    </style>
 </resources>
