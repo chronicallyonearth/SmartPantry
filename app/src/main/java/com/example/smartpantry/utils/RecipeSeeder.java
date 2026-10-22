@@ -7,8 +7,7 @@ import com.example.smartpantry.model.RecipeIngredient;
 //class responsible for populating the database with default recipe data
 public final class RecipeSeeder {
     //prevent instantiation
-    private RecipeSeeder() {
-    }
+    private RecipeSeeder() {}
 
     //seed the database with a default list of recipes if none exist
     public static void seedIfEmpty(DatabaseHelper db) {
@@ -87,7 +86,7 @@ public final class RecipeSeeder {
                 new RecipeIngredient("Atchar", 15, "g"));
     }
 
-    // helper method to construct recipe object, attatch ingredients, and insert into database
+    // helper method to construct recipe object, attach ingredients, and insert into database
     private static void add(DatabaseHelper db, String name, String instructions, RecipeIngredient... items) {
         Recipe recipe = new Recipe(0, name, instructions);
 
