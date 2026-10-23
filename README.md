@@ -158,28 +158,32 @@ Build Analyzer results available
 
 1.Empty App pantry
 
+<img width="1920" height="1080" alt="1_Empty App pantry" src="https://github.com/user-attachments/assets/c9493c42-10f7-460a-ad5b-cfda2d2c4fb8" />
 
 
 2.Add Ingredients
 
+<img width="1920" height="1080" alt="2_Add_Ingredient_Screen" src="https://github.com/user-attachments/assets/1fa07829-f8f3-439d-8942-906c9ecad3be" />
 
 
 3.Expiry Alert
 
+<img width="1920" height="1080" alt="3_Expiry_Alert" src="https://github.com/user-attachments/assets/debea1be-afd9-42db-aa27-37e31ffc0e0d" />
 
 
 4.Date Selector
 
+<img width="1920" height="1080" alt="4_Date_selector" src="https://github.com/user-attachments/assets/01297753-16eb-4782-9c93-90f05eb15777" />
 
 
 5.Suggested Recipe
 
+<img width="1920" height="1080" alt="5_Suggested_recipes" src="https://github.com/user-attachments/assets/ba002e9f-a525-4753-9e15-36d754e5cd4c" />
 
 
 6.Kota Recipe
 
-
-
+<img width="1920" height="1080" alt="6_Recipe" src="https://github.com/user-attachments/assets/66067420-01c5-47ec-96dd-cf9b2033dea1" />
 
 
 ## 10. Limitations
