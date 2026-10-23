@@ -61,7 +61,7 @@ public class AddEditIngredientActivity extends AppCompatActivity {
         // check if an ingredient ID is passed in the intent
         ingredientId = getIntent().getLongExtra(EXTRA_INGREDIENT_ID, -1);
 
-        if (ingredientId != 1){
+        if (ingredientId != -1){
             Ingredient existing = db.getIngredient(ingredientId);
 
             if (existing == null){

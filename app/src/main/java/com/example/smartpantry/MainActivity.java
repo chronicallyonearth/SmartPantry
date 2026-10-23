@@ -110,7 +110,7 @@ public class MainActivity extends AppCompatActivity implements IngredientAdapter
     @Override
     public void onDelete(Ingredient ingredient){
         new MaterialAlertDialogBuilder(this).setTitle("Delete ingredient?")
-                .setMessage("Remove" + ingredient.getName() + " from your pantry?")
+                .setMessage("Remove " + ingredient.getName() + " from your pantry?")
                 .setNegativeButton("Cancel", null)
                 .setPositiveButton("Delete", (dialog, which) ->{
                     db.deleteIngredient(ingredient.getId());
